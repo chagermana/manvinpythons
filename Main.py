@@ -1,0 +1,17 @@
+print("Welcome to Python Programming")
+print(67+71)
+print("67+71")
+print("Hello World")
+print("HELLO WORLD!")
+print("5+5")
+print(123+4*6+5-7+22)
+print("Caffemitmilch")
+print("guten Morgen herr Manvin")
+print("wie gehts?")
+print("was ist deine name?")
+print(123*4)
+print('hello')
+print("ja,wilkommen restaurant.wir habe many things.Hier ist deine speisekarte!!!")
+print("welcome")
+
+# echo "Welcome to Python Programming"

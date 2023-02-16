@@ -1,0 +1,13 @@
+import sqlite3
+conn=sqlite3.connect('mitmidmorning.db')
+print("Open database Successfully")
+conn.execute("INSERT INTO Wanafunzi(ID,NAME,AGE,SCHOOL,GENDER)VALUES(1,'ERIC',30,'eMobilis','male')")
+conn.execute("INSERT INTO Wanafunzi(ID,NAME,AGE,SCHOOL,GENDER)VALUES(2,'Manvin',19,'eMobilis','female')")
+conn.execute("INSERT INTO Wanafunzi(ID,NAME,AGE,SCHOOL,GENDER)VALUES(3,'Hope',19,'Austrian School','female')")
+conn.execute("INSERT INTO Wanafunzi(ID,NAME,AGE,SCHOOL,GENDER)VALUES(4,'Everlyn',19,'Consolata','female')")
+conn.execute("INSERT INTO Wanafunzi(ID,NAME,AGE,SCHOOL,GENDER)VALUES(5,'Darshni',17,'Pindolia','female')")
+conn.execute("INSERT INTO Wanafunzi(ID,NAME,AGE,SCHOOL,GENDER)VALUES(6,'Wema',19,'Glasgow','female')")
+conn.execute("INSERT INTO Wanafunzi(ID,NAME,AGE,SCHOOL,GENDER)VALUES(7,'Michelle',18,'Glasgow','female')")
+conn.commit()
+print("Records added successfully")
+conn.close()
